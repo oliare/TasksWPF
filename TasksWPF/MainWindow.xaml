@@ -1,0 +1,15 @@
+﻿<Window x:Class="TasksWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TasksWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#FFE9F7EB">
+    <StackPanel Margin="20">
+        <Label Content="Enter the text to analyze:" HorizontalAlignment="Left" FontSize="16" Margin="0,0,0,10" FontWeight="Bold" FontFamily="Cascadia Code SemiBold"/>
+        <TextBox x:Name="textBox" TextWrapping="Wrap" Height="283" Margin="0,0,0,10"/>
+        <Button x:Name="analyzeButton" Content="GO" Click="Go_Click" Background="White"
+                Margin="0,10,0,0" FontFamily="Cascadia Code SemiBold" HorizontalAlignment="Center" Width="104" Height="25"/>
+    </StackPanel>
+</Window>
